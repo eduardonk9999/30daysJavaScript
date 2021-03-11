@@ -2,10 +2,6 @@ const body = document.querySelector('body');
 const letter = document.querySelector('.letter');
 const audios = document.querySelectorAll('.audio');
 
-
-
-
-
 function executLetter(numberLetter) {
   audios.forEach(audio => {
     let audioLe = Number(audio.dataset.number);
